@@ -1,6 +1,6 @@
 # PROJECT BY [missating](https://github.com/missating)
 
-# COMMAND LIST SAMEPLE
+# COMMAND LIST EXEMPLE
 - Créé un token pour ce login : exemple token : 965864853458345484389TYGT4
 - faire un docker login:
 ```bash
