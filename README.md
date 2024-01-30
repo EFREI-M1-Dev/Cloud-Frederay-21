@@ -1,5 +1,31 @@
-# nodejs-todo
+# PROJECT BY [missating](https://github.com/missating)
 
+# COMMAND LIST SAMEPLE
+- Créé un token pour ce login : exemple token : 965864853458345484389TYGT4
+- faire un docker login:
+```bash
+ echo 965864853458345484389TYGT4 | docker login ghcr.io -u fredray-21 --password-stdin
+```
+- faire un docker build (on build l'image)
+
+Exemple :
+```bash 
+docker build -t $(nom de l'image complet) .
+```
+
+Commande :
+```bash 
+docker build -t ghcr.io/fredray-21/NOM_IMAGE .
+```
+
+- faire un push de l'image
+```bash 
+docker push ghcr.io/fredray-21/NOM_IMAGE
+```
+
+---
+
+# nodejs-todo
 <h2> A simple To Do List application built with Node.js and Express</h2>
 
 <p> Nodejs application that let's you add and complete task on a single page, storing both new and completed task in a different array. This appllication makes use of: </p>
